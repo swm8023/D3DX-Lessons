@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{db1b97a5-2c7c-4b09-84df-130390f10b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8a06fd4e-15c5-4228-8ea1-0b2ac31b23da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dxwindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lesson01-createWindow\transform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dxwindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
